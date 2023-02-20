@@ -2,6 +2,7 @@ import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import Login from './pages/auth/Login';
 import Dashboard from './pages/Dashboard';
+import Register from './pages/auth/Register';
 
 import './assets/bootstrap-5.0.2-dist/css/bootstrap.min.css';
 import './assets/bootstrap-5.0.2-dist/js/bootstrap.min.js';
@@ -15,6 +16,7 @@ function App()
         <Routes>
           <Route path="/" exact element={<Homepage />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>

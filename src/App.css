@@ -74,7 +74,7 @@ a.navbar-brand {
     background-color: var(--primary-color);
 }
 
-.nav-link:hover, a.navbar-brand:hover, a {
+.nav-link:hover, a.navbar-brand:hover, a, .nav-item.dropdown button {
     color: var(--primary-color) !important;
 }
 
@@ -86,7 +86,7 @@ a.navbar-brand {
     border-color: var(--primary-color);
 }
 
-.nav-link {
+.nav-link, .nav-item.dropdown button {
     font-size: 18px;
     font-family: var(--font-text);
     color: var(--text-color) !important;
@@ -102,6 +102,10 @@ a.navbar-brand {
 
 .navbar-brand img {
     width: 10%;
+}
+
+.nav-item.dropdown button {
+    margin-top: 7px;
 }
 
 /* Placeholders */

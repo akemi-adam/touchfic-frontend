@@ -37,7 +37,7 @@ export default function Login() {
     }
 
     return (
-        <div>
+        <>
             <Header navbar={<GuestNavbar/>}/>
             <div className="container mt-5 p-4 border w-50">    
                 <form onSubmit={handleSubmit}>
@@ -58,7 +58,7 @@ export default function Login() {
                     <AuthButton description="Enviar"/>
                 </form>
             </div>
-        </div>
+        </>
     );
 
 }
